@@ -4,10 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Job Search</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
         <nav>
             <a href="#" class="logo">JobFinder</a>
             <ul>
@@ -17,34 +16,25 @@
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
-    </header>
 
     <main>
         <section class="search-section">
             <h1>Find Your Dream Job</h1>
-            <form>
-                <input type="text" placeholder="Job title, keywords, or company" required>
-                <input type="text" placeholder="City, state, or zip" required>
-                <button type="submit">Search</button>
-            </form>
-        </section>
-
-        <section class="jobs-section">
-            <h2>Recent Jobs</h2>
-            <div class="job-card">
-                <h3>Software Engineer</h3>
-                <p>Company: Tech Corp</p>
-                <p>Location: New York, NY</p>
-                <button>Apply Now</button>
+            <div id="job-form-container">
+                <form id="job-form" class = "form form-control">
+                    <label for="description">Job:</label>
+                    <input type="text" id="description" name="description" required>
+                    <br>
+                    <label for="location">Location:</label>
+                    <input type="text" id="location" name="location" required>
+                    <br>
+                    <input type="submit" value="Search">
+                </form>
             </div>
-            <!-- Repeat similar job-card divs for more job listings -->
+            <div id="job-results" class="job-results">
+                <!-- Job results will be displayed here -->
+            </div>
         </section>
     </main>
-
-    <footer>
-        <p>&copy; 2024 JobFinder. All rights reserved.</p>
-    </footer>
-
-    <script src="scripts.js"></script>
 </body>
 </html>
