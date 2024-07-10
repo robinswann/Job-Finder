@@ -1,85 +1,99 @@
-    div.cjsearchbox {
-            text-align: left ; 
-            border: 1px solid #919294; 
-            background-color: #FFFFFF ;
-            padding: 8px ; 
-            font-family: Arial, sans-serif ; 
-            font-size: 13px ; 
-            color: #000000; 
-            width: 480px;
-        }
-        div.cjsearchbox a { 
-            color: #198ADC ; 
-        }
-        div.cjbotl a {
-            color: #198ADC;
-        }
-        div.cjsearchbox form.cjsearchform { 
-            padding: 0;
-        }
-        div#cjSearchResult { 
-        }
-        div#cjSearchResult p.topline { 
-            font-size: 16px ; 
-            font-weight: bold ; 
-            margin-bottom: 8px ; 
-            margin-top: 5px ;
-        }
-        span.cjlabel { 
-            font-size: 13px ; 
-            font-weight: bold ; 
-            color: #000000; 
-        }
-        span.cjlabelsmall { 
-            font-size: 11px ; 
-            color: #000000; 
-        }
-        input.cjinput { 
-            width: 90%; 
-            padding: 3px 0px;
-            border: 1px solid #AAA;
-            border-right: 1px solid #DDD;
-            border-bottom: 1px solid #DDD;
-            margin-top: 2px;
-            margin-bottom: 2px;
-        }
-        input.cjbutton {  
-            font-family:  Arial, sans-serif; 
-        }
-        div.cjjob { 
-            margin: 0px ; 
-            margin-bottom: 10px ; 
-            overflow: hidden ;
-        }
-        div.cjjob p { 
-            margin: 0px ; 
-        }
-        div.cjjob p.jobtitle { 
-            font-size: 14 ; 
-            font-weight: bold ;
-        }
-        div.cjjob .company { 
-            color: #666666; 
-        }
-        div.cjjob .locations { 
-            color: #666666;
-        }
-        div.cjjob .site { 
-            color: #099E2D ; 
-        }
-        
-        /* Job search results box styles */
-        div.cjjobbox {
-            width: 345px ;
-            background-color: #FFFFFF ;
-            border-style: solid ;
-            border-width: 1px ;
-            border-color: #919294 ;
-            font-family: Arial, sans-serif ;
-            font-size: 13px ;
-            color: #000000;
-            text-align: left;
-        }
-        div.cjjobbox a {
-            color: #198ADC ;
-        }
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Montserrat", sans-serif;
+}
+h1{
+    text-align: center;
+}
+div.cjsearchbox {
+    position: absolute;
+    left: 36%;
+    width: 450px;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #fafafa;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+
+}
+div.cjsearchbox a { 
+    color: #198ADC ; 
+}
+div.cjbotl a {
+    color: #198ADC;
+}
+div.cjsearchbox form.cjsearchform { 
+    padding: 0;
+}
+div#cjSearchResult { 
+}
+div#cjSearchResult p.topline { 
+    border-top: 1px solid #000;
+    padding-top: 20px;
+    margin-top: 30px;
+    font-size: 20px ; 
+    font-weight: bold ; 
+    margin-bottom: 8px ; 
+    
+}
+span.cjlabel { 
+    font-size: 13px ; 
+    font-weight: bold ; 
+    
+}
+span.cjlabelsmall { 
+    font-size: 11px ; 
+    color: #000000; 
+    margin: 15px 30px;
+}
+input.cjinput { 
+    text-align: center;
+    width: 90%; 
+    padding: 3px 0px;
+    border: 1px solid #AAA;
+    border-radius: 20px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+div.cjjob { 
+    border: 1px solid #000;
+    padding: 20px;
+    margin: 5px ; 
+    margin-bottom: 50px ; 
+    overflow: hidden ;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px #000;
+}
+div.cjjob p { 
+    margin: 0px ; 
+}
+div.cjjob p.jobtitle { 
+    margin-bottom: 20px;
+    font-size: 14 ; 
+    font-weight: bold ;
+}
+div.cjjob .company { 
+    color: #666666; 
+}
+div.cjjob .locations { 
+    color: #666666;
+}
+div.cjjob .site { 
+    color: #099E2D ; 
+}
+
+/* Job search results box styles */
+div.cjjobbox {
+    width: 345px ;
+    background-color: #000000 ;
+    border: 2px solid #000;
+    font-family: Arial, sans-serif ;
+    font-size: 13px ;
+    color: #000000;
+    text-align: left;
+}
+div.cjjobbox a {
+    color: #198ADC ;
+}
