@@ -1,66 +1,24 @@
-div.cjsearchform { 
-    text-align: left; 
-    border: 1px solid #919294; 
-    background-color: #FFFFFF;
-    padding: 8px; 
-    font-family: Arial, sans-serif; 
-    font-size: 13px; 
-    color: #000000; 
-    width: 480px;
-    margin: 20px auto; /* Center align */
+.job-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #f9f9f9;
 }
 
-div.cjsearchform form.cjsearchform { 
-    padding: 0;
+.job-card h3 {
+    margin-top: 0;
 }
 
-span.cjlabel { 
-    font-size: 13px; 
-    font-weight: bold; 
-    color: #000000; 
+.job-card button {
+    background-color: #198ADC;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
 }
 
-span.cjlabelsmall { 
-    font-size: 11px; 
-    color: #000000; 
-}
-
-input.cjinput { 
-    width: 90%;
-    padding: 3px 0px;
-    border: 1px solid #AAA;
-    border-right: 1px solid #DDD;
-    border-bottom: 1px solid #DDD;
-    margin-top: 2px;
-    margin-bottom: 2px;
-}
-
-div.cjbotl {
-    color: #000000;
-}
-
-div.cjbotl a {
-    color: #198ADC;
-}
-
-input.cjbutton {  
-    font-family: Arial, sans-serif; 
-}
-
-/* Careerjet job box styles */
-div.cjjobbox {
-    width: 345px;
-    background-color: #FFFFFF;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #919294;
-    font-family: Arial, sans-serif;
-    font-size: 13px;
-    color: #000000;
-    text-align: left;
-    margin: 20px auto; /* Center align */
-}
-
-div.cjjobbox a {
-    color: #198ADC;
+.job-card button:hover {
+    background-color: #0f6bb2;
 }
