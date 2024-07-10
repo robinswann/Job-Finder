@@ -1,6 +1,6 @@
 # Job Finder Web App
 
-This project is a web application that allows users to search for job listings using the Job Finder API. Users can input parameters such as location and job title to retrieve relevant job listings.
+This project is a web application that allows users to search for job listings using the Job Finder API. Users can input parameters such as location and job title to retrieve relevant job listings from Careerjet API.
 
 # Features:
   - Search for job listings by location and job title.
