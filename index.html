@@ -3,39 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Job Search</title>
+    <title>Job Finder</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-        <nav>
-            <a href="#" class="logo">JobFinder</a>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Jobs</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
+    <h1>Job Finder</h1>
 
-    <main>
-        <section class="search-section">
-            <h1>Find Your Dream Job</h1>
-            <div id="job-form-container">
-                <form id="job-form" class = "form form-control">
-                    <label for="description">Job:</label>
-                    <input type="text" id="description" name="description" required>
-                    <br>
-                    <label for="location">Location:</label>
-                    <input type="text" id="location" name="location" required>
-                    <br>
-                    <input type="submit" value="Search">
-                </form>
-            </div>
-            <div id="job-results" class="job-results">
-                <!-- Job results will be displayed here -->
-            </div>
-        </section>
-    </main>
-     <script src="script.js"></script>
+    <!-- Careerjet search box -->
+    <a name="cjsearchboxanchor"></a>
+    <div class="cjsearchbox">
+        <script language="javascript" type="text/javascript" src="https://www.careerjet.com/partners/js_searchbox.html?n=7&nfr=1"></script>
+        <div class="cjbotl bloggerDiv"></div>
+    </div>
+    <!-- end of Careerjet search box -->
+
+    <!-- Job search form and results -->
+    <div id="job-results" class="cjjobbox"></div>
+    <!-- end of Job search form and results -->
+
+   <script src="script.js"></script>
 </body>
 </html>
